@@ -3,7 +3,7 @@ import React from 'react'
 function BannerBody() {
   return (
     <div>
-      <div className="flex bg-slate-100 stats w-full">
+      <div className="flex bg-slate-100 text-gray-300 stats w-full">
         <div className="stat place-items-center">
           <div className="stat-title">Freelances</div>
           <div className="stat-value">31K</div>

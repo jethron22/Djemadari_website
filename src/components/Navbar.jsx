@@ -44,7 +44,7 @@ function Navbar() {
         </span>
         <span className='flex gap-10 text-black text-1xl items-center mr-20'>
 
-          <span className=''>
+          <span className=' text-white'>
             <Freelancers />
           </span>
           <span className=''>

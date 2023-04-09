@@ -1,20 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import etudiantesouriante from '../../src/assets/etudiantesouriante.png';
 
 function Banner() {
-  const [bgColor, setBgColor] = useState('#040438');
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      const newColor = Math.random() > 0.5 ? '#f7f748' : '#e2e208';
-      setBgColor(newColor);
-    }, 5000);
-    return () => clearTimeout(timer);
-  }, []);
+  
 
   return (
     <div>
-        <div  className='' style={{ backgroundColor: bgColor }}>
+        <div  className='' style={{}}>
       <div className='flex w-full p-10 bg-[#040438]'>
         <div className='flex flex-column mt-52 flex-wrap w-3/6'>
           <div className='ml-10'>

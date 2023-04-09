@@ -3,7 +3,7 @@ import React from 'react'
 function Commandes() {
   return (
     <div>
-         <h4 className=''>Commandes</h4>
+         <h4 className='text-white'>Commandes</h4>
     </div>
   )
 }

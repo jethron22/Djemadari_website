@@ -3,10 +3,10 @@ import djemadari_pres from '../assets/djemadari_pres.mp4'
 import { Performance } from '../assets/data/Performance'
 function HowWeWork() {
     return (
-        <div className='mt-28'>
+        <div className='mt-28 bg-[#e0fdff]  '>
             <div className='flex m-10 justify-between'>
 
-                <div className='flex flex-col flex-wrap'>
+                <div className='flex  mt-14 mb-14 flex-col flex-wrap'>
                     {Performance.map((item, index) => (
                         <div key={index} className='flex w-[450px] flex-col'>
                             <div className=''>
@@ -18,7 +18,7 @@ function HowWeWork() {
                     ))}
                 </div>
 
-                <span>
+                <span className=' mt-14 mb-14 '>
                     <video src={djemadari_pres} width="650" height="500" controls></video>
                 </span>
 

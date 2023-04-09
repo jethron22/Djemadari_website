@@ -46,18 +46,24 @@ function Popularis() {
 
     return (
         <div className='Popular-card'>
-            <p className='text-4xl font-semibold mb-8'>Service les plus demandés : </p>
+            <p className='text-4xl font-semibold mb-8'>Services les plus demandés : </p>
             <Slider {...settings}>
+                
                 {Popular.map((item, index) => (
+                  
                     <div key={index} className='card' >
+                        
                         <div className='card-top'>
+                        <div className=''>
                             <img src={item.image} alt="image du service" />
                             <h4 className='text-[20px] font-semibold'>{item.category}</h4>
                             <div className='card-bottom'>
-                                <span className='border-b border-green-700 pb-7'>{item.description}</span>
+                                <span className='border-b border-slate-700 pb-10 '>{item.description}</span>
+                            </div>
                             </div>
                         </div>
                     </div>
+                    
                 ))}
             </Slider>
         </div>
