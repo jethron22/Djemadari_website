@@ -1,0 +1,66 @@
+body {
+    background:white,
+    
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+
+
+ 
+
+
+  .slick-next,
+  .slick-prev {
+    z-index: 1;
+    
+   
+  }
+
+  .slick-next {
+   margin: 2;
+   margin-bottom: 10px;
+   margin-left : 30px
+  }
+
+  
+  
+
+.card {
+    border: 1px solid whitesmoke;
+    background: #000;
+    border-radius: 8px;
+
+    height: 330px;
+    overflow: hidden;
+    color: whitesmoke;
+
+}
+
+.card-top h4 {
+    margin: 10px 20px;
+}
+
+.card-top > img {
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+.Popular-card {
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.card-bottom {
+    margin: 10px 20px;
+    position: relative;
+}
+
+
+

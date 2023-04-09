@@ -1,47 +1,39 @@
 import React from 'react'
 
-function Programmation() {
+function  GraphismeEtDesign() {
   return (
     <div>
       <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
         <label tabIndex={0} className=" cursor-pointer hover:text-green-600 text-black">
-          Programmation
+          Graphisme et Design
         </label>
         <ul tabIndex={0} className="flex dropdown-content mt-1 bg-white p-2 shadow rounded-box w-[700px] h-[500px]">
           <div className="flex flex-col ">
             <div className='flex justify-center'>
               <div className="flex flex-rows w-full ml-5 ">
                 <div className='flex flex-col border-r border-gray-400 w-52'>
-                  <p className="font-bold"> Creation des sites web </p>
+                  <p className="font-bold">Stratégie & analyse </p>
                   <ul className="py-2">
-                    <li className="cursor-pointer hover:text-green-800">Wordpress</li>
-                    <li className="cursor-pointer hover:text-green-800">Shopify</li>
-                    <li className="cursor-pointer hover:text-green-800">Wix</li>
-                    <li className="cursor-pointer hover:text-green-800">Drupal</li>
-                    <li className="cursor-pointer hover:text-green-800">Joomla</li>
-                    <li className="cursor-pointer hover:text-green-800">Woocommerce</li>
-
+                    <li className="cursor-pointer hover:text-green-800">Stratégie Marketing</li>
+                    <li className="cursor-pointer hover:text-green-800">Conseil Marketing</li>
                   </ul>
                 </div>
                 <div className='flex flex-col border-r border-gray-400 ml-5'>
                   <div className='flex flex-col w-52'>
-                    <p className="font-bold">Frontend From Scratch</p>
+                    <p className="font-bold">Réseaux Sociaux</p>
                     <ul className="py-2">
-                      <li className="cursor-pointer hover:text-green-800">HTML5 & CSS3</li>
-                      <li className="cursor-pointer hover:text-green-800">Javascript & HTML5 & CSS3</li>
-                      <li className="cursor-pointer hover:text-green-800">React</li>
-
+                      <li className="cursor-pointer hover:text-green-800">Stratégie Marketing</li>
+                      <li className="cursor-pointer hover:text-green-800">Conseil Marketing</li>
                     </ul>
                   </div>
                 </div>
                 <div className='flex flex-col '>
                   <div className='flex-col ml-5 w-52'>
-                    <p className='font-bold'>Backend From scratch</p>
+                    <p className='font-bold'>Marketing opérationnel</p>
                     <ul className='py-2'>
-                      <li className="cursor-pointer hover:text-green-800">NodeJS</li>
-                      <li className="cursor-pointer hover:text-green-800">PHP/Laravel</li>
-                      <li className="cursor-pointer hover:text-green-800">Django</li>
-                      <li className="cursor-pointer hover:text-green-800">Ruby on rails</li>
+                      <li className="cursor-pointer hover:text-green-800">Politique produit</li>
+                      <li className="cursor-pointer hover:text-green-800">Politique communication (Promotion)</li>
+                      <li className="cursor-pointer hover:text-green-800">Politique distribution</li>
                     </ul>
                   </div>
                 </div>
@@ -52,18 +44,15 @@ function Programmation() {
               <div className='flex justify-center'>
                 <div className="flex flex-rows w-full ml-5 ">
                   <div className='flex flex-col border-r border-gray-400 w-52'>
-                    <p className="font-bold">Maintenance des sites web</p>
+                    <p className="font-bold">Stratégie Analyse</p>
                     <ul className="py-2">
-                      <li className="cursor-pointer hover:text-green-800">Bug Fixing</li>
-                      <li className="cursor-pointer hover:text-green-800">Consultation</li>
-                      <li className="cursor-pointer hover:text-green-800">Sécurité</li>
-                      <li className="cursor-pointer hover:text-green-800">Tests</li>
-                      <li className="cursor-pointer hover:text-green-800">Hebergement</li>
+                      <li className="cursor-pointer hover:text-green-800">Stratégie Marketing</li>
+                      <li className="cursor-pointer hover:text-green-800">Conseil Marketing</li>
                     </ul>
                   </div>
                   <div className='flex flex-col border-r border-gray-400 ml-5'>
                     <div className='flex flex-col w-52'>
-                      <p className="font-bold">Photographie</p>
+                      <p className="font-bold">Réseaux Sociaux</p>
                       <ul className="py-2">
                         <li className="cursor-pointer hover:text-green-800">Stratégie Marketing</li>
                         <li className="cursor-pointer hover:text-green-800">Conseil Marketing</li>
@@ -124,4 +113,4 @@ function Programmation() {
   )
 }
 
-export default Programmation
+export default  GraphismeEtDesign 

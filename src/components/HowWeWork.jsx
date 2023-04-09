@@ -8,7 +8,7 @@ function HowWeWork() {
 
                 <div className='flex flex-col flex-wrap'>
                     {Performance.map((item, index) => (
-                        <div key={index} className='flex w-[500px] flex-col'>
+                        <div key={index} className='flex w-[450px] flex-col'>
                             <div className=''>
                                 <p className='flex text-3xl font-semibold '>{item.title}</p>
                                 <p className='flex gap-2 text-2xl mt-5'><span className='items-center mt-1'>{item.icon}</span><span className='items-center'>{item.Sub_title}</span></p>

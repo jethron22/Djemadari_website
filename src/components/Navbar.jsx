@@ -28,8 +28,8 @@ function Navbar() {
 
   return (
     <div>
-      <div className={`flex fixed justify-between w-full p-2 bg-[#040438]   border-b border-gray-600 transition-all duration-200 ${visible ? "" : "translate-y-full opacity-0 pointer-events-none"}`}>
-        <span className='flex text-3xl text-white items-center ml-5 font-semibold hover:text-[#e2e208] cursor-pointer duration-300'>
+      <div className={`flex fixed justify-between w-full p-2 bg-[#040438]   border-b border-gray-600 transition-all duration-200 ${visible ? "" : "translate-y-full opacity-0"}`}>
+        <span className='flex text-3xl text-white items-center ml-5 font-semibold hover:text-[#e2e208] duration-300'>
           <span className='flex h-20'>
             <img src={logo_djemadari} alt='logo djemadari' />
           </span>
@@ -44,22 +44,22 @@ function Navbar() {
         </span>
         <span className='flex gap-10 text-black text-1xl items-center mr-20'>
 
-          <span className='cursor-pointer'>
+          <span className=''>
             <Freelancers />
           </span>
-          <span className='cursor-pointer'>
+          <span className=''>
            <Commandes />
           </span>
 
-          <span className='cursor-pointer'>
+          <span className=''>
            <PresterUnService />
           </span>
 
-          <span className='cursor-pointer'>
+          <span className=''>
          <SeConnecterNav />
           </span>
 
-          <span className='cursor-pointer'>
+          <span className=''>
           <SinscrireNav />
           </span>
 

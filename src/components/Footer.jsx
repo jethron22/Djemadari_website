@@ -7,7 +7,7 @@ function Footer() {
     <div>
 
 
-<footer className="footer p-10 bg-gray-300 text-base-content">
+<footer className="footer p-10 bg-slate-100 text-base-content">
   <div>
     <span className='flex  h-20 w-100'>
     <img src={logo_djemadari2} />

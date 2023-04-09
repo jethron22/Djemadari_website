@@ -4,6 +4,8 @@ import Programation from './metiers/Programation';
 import MarketingDigital from './metiers/MarketingDigital';
 import RedacteurWeb from './metiers/RedacteurWeb';
 import SearchBar from './SearchBar';
+import GraphismeEtDesign from '../components/metiers/GraphismeEtDesign'
+import Photographie from './metiers/Photograhie';
 
 function SubNavbarServices() {
     const [visible, setVisible] = useState(false);
@@ -36,6 +38,12 @@ function SubNavbarServices() {
             </div>
             <div className='border-t border-gray-300'>
                 <ul className="flex space-x-4 mt-3">
+                    <li>
+                        <Photographie />
+                    </li>
+                    <li>
+                        <GraphismeEtDesign />
+                    </li>
                     <li>
                         <MarketingDigital />
                     </li>

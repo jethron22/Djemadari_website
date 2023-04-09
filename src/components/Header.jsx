@@ -6,9 +6,12 @@ import SubNavbarServices from './SubNavbarServices'
 function Header() {
   return (
     <div>
-      <SubNavbarServices />
+     
      <Navbar />
      <Banner />
+     <div>
+     <SubNavbarServices />
+     </div>
     </div>
   )
 }

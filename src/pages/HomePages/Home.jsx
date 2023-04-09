@@ -8,7 +8,11 @@ function Home() {
     <div>
         <Header />
         <Body />
+         
+        <div className='mt-28'>
         <Footer />
+        </div>
+        
     </div>
   )
 }

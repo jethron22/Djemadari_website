@@ -7,7 +7,7 @@ function MarketingDigital() {
         <label tabIndex={0} className=" cursor-pointer hover:text-green-600 text-black">
           Marketing Digital
         </label>
-        <ul tabIndex={0} className="flex dropdown-content mt-1 bg-slate-100 p-2 shadow rounded-box w-[700px] h-[500px]">
+        <ul tabIndex={0} className="flex dropdown-content mt-1 bg-white p-2 shadow rounded-box w-[700px] h-[500px]">
           <div className="flex flex-col ">
             <div className='flex justify-center'>
               <div className="flex flex-rows w-full ml-5 ">
