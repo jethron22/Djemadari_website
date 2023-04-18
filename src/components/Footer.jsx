@@ -13,7 +13,7 @@ function Footer() {
     <img src={logo_djemadari2} />
     </span>
  
-    <p>Djemadari DRC-Goma<br/>Providing reliable tech since 2023</p>
+    <p>Djemadari Nord Kivu-Goma<br/>Providing reliable tech since 2023</p>
   </div> 
   <div>
     <span className="footer-title">Services</span> 
